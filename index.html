@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GPlus January</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <title>G+ January</title>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/gplusjan.css" rel="stylesheet" media="screen" >
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/handlebars-1.0.rc.1.js"></script>
     <script src="js/ember-1.0.0-pre.2.min.js"></script>
+    <script src="js/gplusjan.js"></script>
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <a class="brand" href="#">GPlus January</a> 
+        <div class="container">
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#top">Top</a></li>
+              <li><a href="">What is G+ January</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div class="hero-unit">
-        <h1>Coming Soon!<h2>
+    <div class="container-fluid">
+      <div class="hero-unit pagination-centered">
+        <a name="top" href="#"></a>
+        <img src="img/logo.png"/>
+        <h2>
+          Share the fun of Google+ this January
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span12">
+            <h3>Look who's using already Google+</h3>
+            <table id="photo-wall" style="margin: auto;">
+            </table>
+          </div>
+        </div>
+        <hr/>
+        <div class="row-fluid">
+          <div class="span12">
+            <h3>What is G+ January</h3>
+          </div>
+        </div>
       </div>
     </div>
   </body>
