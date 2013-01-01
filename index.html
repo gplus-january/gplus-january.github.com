@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GPlus January</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <title>G+ January</title>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/gplusjan.css" rel="stylesheet" media="screen" >
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/handlebars-1.0.rc.1.js"></script>
-    <script src="js/ember-1.0.0-pre.2.min.js"></script>
+    <script src="js/gplusjan.js"></script>
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <a class="brand" href="#">GPlus January</a> 
+        <div class="container">
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#top">Top</a></li>
+              <li><a href="">What is G+ January</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div class="hero-unit">
-        <h1>Coming Soon!<h2>
+    <div class="container-fluid">
+      <div class="hero-unit pagination-centered">
+        <a name="top" href="#"></a>
+        <img src="img/logo.png"/>
+      </div>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span12">
+            <h3>What is G+ January</h3>
+            <p>
+            Just something a couple of really cool guys came up with.
+            </p>
+          </div>
+        </div>
+        <hr/>
+        <div class="row-fluid">
+          <div class="span12">
+            <h3>Google+ Features</h3>
+            <p>
+            Check out these really awesome features that Google+ provides.
+            </p>
+            <div id="featuresCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="active item row-fluid">
+                        <div class="span9 pagination-centered">
+                            <h4>Events</h4>
+                            <p>Events are awesome</p>
+                        </div>
+                    </div>
+                    <div class="item row-fluid">
+                        <div class="span9 pagination-centered">
+                            <h4>Communities</h4>
+                            <p>Communities are awesome</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control left" href="#featuresCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#featuresCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

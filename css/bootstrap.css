@@ -164,7 +164,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #ccc;
 }
 
 a {
@@ -568,8 +568,6 @@ a:hover {
 }
 
 .container-fluid {
-  padding-right: 20px;
-  padding-left: 20px;
   *zoom: 1;
 }
 
@@ -796,8 +794,8 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #999;
 }
 
 abbr[title],
@@ -5849,11 +5847,9 @@ a.badge:hover {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  color: inherit;
-  background-color: #eeeeee;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  color: #fff;
+  background-color: #a3a3a3;
+  text-shadow: 0px 5px 5px #404040;
 }
 
 .hero-unit h1 {

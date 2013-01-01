@@ -1,0 +1,5 @@
+$(function() {
+    
+    $("#featuresCarousel").carousel();
+
+});
