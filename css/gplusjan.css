@@ -30,7 +30,6 @@ body {
     border: 1px solid #000000;
     min-height: 640px;
     background: #c9c9c9;
-    margin-bottom: 100px;
     padding: 6px;
     box-shadow: 0px 0px 10px 2px #303030;
 }
@@ -101,29 +100,3 @@ body {
 .content .row div, .content .row-fluid div{
     padding: 20px;
 }
-
-/* .titlebar div {
-    display: inline-block;
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
-.titlebar .mid {
-    background-image: url(../img/mid-back.png);
-    height: 51px;
-    min-width: 10px;
-}
-
-.titlebar .left {
-    background-image: url(../img/left.png);
-    background-repeat: no-repeat;
-    height: 51px;
-    width: 6px;
-}
-
-.titlebar .right {
-    background-image: url(../img/right.png);
-    background-repeat: no-repeat;
-    height: 51px;
-    width: 6px;
-} */
