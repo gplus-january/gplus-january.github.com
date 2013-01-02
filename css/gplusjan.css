@@ -100,3 +100,11 @@ body {
 .content .row div, .content .row-fluid div{
     padding: 20px;
 }
+
+.content .row-fluid .tab-content {
+    padding-top: 0px;
+}
+
+.padded {
+    margin: 4px;
+}
